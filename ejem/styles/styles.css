@@ -24,6 +24,7 @@ font-weight: bold;
 }
 #mainheader{
     height: 80px;
+    margin-bottom: 10px;
 }
 .searchbox{
     float: right;
@@ -34,6 +35,15 @@ font-weight: bold;
 #welcomeimage{
 float: left;
 width: 700px;
+}
+.backgroundgradient{
+float: left;
+background-color:gray; 
+}
+.backgroundgradient > ul > li{
+float: left;
+list-style-type: none;
+margin-left: 5px; 
 }
 #proyectodelmes{
 float: right;
@@ -54,6 +64,15 @@ width: 300px;
     margin-bottom: 3px;
 
 }
+
+#welcomeimage{
+    width: 700px;
+    height: auto;
+}
+#welcomeimage > img{
+    width: 100%;
+    height: auto;
+}
 #ultimoseventos{
     float: right;
     width: 30%;
@@ -72,6 +91,13 @@ width: 300px;
 }
 #ultimoseventos > ul > li{
     margin-left: 3px;
+}
+#conocimientos{
+    float: left;
+    width: 700px;
+}
+.skill{
+    float: left;    
 }
 footer{
     clear: both;
