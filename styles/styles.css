@@ -1,0 +1,82 @@
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+header{
+    font-weight: bold;
+}
+.headerlogo{
+float: left;
+margin-right: 10px;
+}
+.headerlogo > img{
+    height: 60px;
+    widows: 60px;
+}
+#headername{
+font-size: 40px;
+color: green;
+padding: 15px;
+margin: 8px 0px;
+font-weight: bold;
+}
+#mainheader{
+    height: 80px;
+}
+.searchbox{
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+#welcomeimage{
+float: left;
+width: 700px;
+}
+#proyectodelmes{
+float: right;
+width: 300px;
+}
+#welcometext{
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#welcometext > header{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+
+}
+#ultimoseventos{
+    float: right;
+    width: 30%;
+     margin-top: 20px;
+    margin-bottom: 20px;
+}
+#ultimoseventos > header{
+    margin-left: 10px;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+#ultimoseventos > ul{
+    list-style: none;
+}
+#ultimoseventos > ul > li{
+    margin-left: 3px;
+}
+footer{
+    clear: both;
+    width: 100%;
+    background-color: white;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}

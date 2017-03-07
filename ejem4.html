@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" type="" href="styles\styles.css"> 
+    </head>
+    <body>
+       <header id="mainheader">
+    <div>
+        <a class="headerlogo"href="">
+            <img src="" alt="">
+        </a>
+        <span id="headername"Proyectos</span>
+        <input type="search" class="searchbox" placeholder="Busca uno de mis proyectos">
+    </div>
+    </header>
+    <form id="mainform" action="#" method="POST">
+        <fieldset class="box">
+            <legend>Tu informacion</legend>
+            <div>
+                <p>
+                    <label class="textlabel" for="FirstNameInput">Nombre</label>
+                    <input id="FirstNameInput" type="text" name="FirstName" autofocus="autofocus" class="textinput" 
+                    placeholder="Coloque su nombre" maxlength="30" required="required"/>
+                </p>
+                <p>
+                    <label class="textlabel" for="LastNameInput">Apellido</label>
+                    <input id="LastNameInput" type="text" name="LastName" class="textinput" size="10" maxlength="50" 
+                    placeholder="Coloque su apellido" required="required"/>
+                </p>
+                <p>
+                    <label class="textlabel" for="emailInput">Email</label>
+                    <input id="emailInput" type="email" name="Email" class="textinput" 
+                    placeholder="Coloque su correo" required="required" />
+                </p>
+            </div>
+        </fieldset>
+        <fieldset>
+             <legend>Tu solicitud</legend>
+             <div>
+                 <p>
+                     <label class="textlabel" for="deliveryDateInput">Fecha aproximada de entrega</label>
+                     <input id="deliveryDateInput" type="date" name="Birthdate" class="textinput"
+                     placeholder="Coloque la fecha aproximada de entrega"/>
+                 </p>
+                 <p>
+                    <label class="textlabel" for="RequestInput">Solicitud</label>
+                    <input id="RequestInput" type="texterea" name="RequestInput" class="textinput"
+                    placeholder="Coloque su solicitud" required="required"/>
+                </p>
+                <p>
+                     <label class="textlabel" for="BudgetInput">Presupuesto aproximado</label>
+                     <input id="BudgetInput" type="number" name="BudgetInput" class="textinput" required="required"
+                     placeholder="Coloque su presupuesto en $$"/>
+                 </p>
+             </div>
+        </fieldset>
+        <input type="submit" value="placeholder" value="submitbutton"/>
+    </form>
+    </body>
+</html>
