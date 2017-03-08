@@ -1,0 +1,45 @@
+@largo: 100%;
+@Tletra: Verdana;
+@colordeprueba: #E1DEDD;
+@logo:{
+    width: 60px;
+    height: 60px;
+};
+
+body{
+    width: @largo;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: @Tletra;
+    padding: 5px;
+}
+.mainheader{
+    width: @largo;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: @colordeprueba;
+    float: left;
+    
+    div{
+        width: @largo;
+        height: 60px;
+        
+        img{
+            @logo();
+        }
+        span{
+            font-size: 40px;
+            color: green;
+            padding: 15px;
+            margin: 8px 0px;
+            font-weight: bold;
+            }
+        .searchbox{
+            width: (@largo * 20/100) ;
+            float: right;
+            padding: 5px;
+            margin: 10px 10px;
+        }
+    }
+    
+}
