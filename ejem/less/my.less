@@ -1,11 +1,18 @@
 @largo: 100%;
 @Tletra: Verdana;
+@color:black;
 @colordeprueba: #E1DEDD;
 @logo:{
     width: 60px;
     height: 60px;
 };
-
+@boton-link:{
+    background-color:darken( @colordeprueba, 40%) ;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin: 0px 10px 10px 0px; /*top, right, left, bottom*/
+};
 body{
     width: @largo;
     margin-left: auto;
@@ -15,7 +22,7 @@ body{
 }
 .mainheader{
     width: @largo;
-    height: 100px;
+    height: auto;
     margin-bottom: 10px;
     background-color: @colordeprueba;
     float: left;
@@ -23,6 +30,7 @@ body{
     div{
         width: @largo;
         height: 60px;
+        margin-bottom: 5px;
         
         img{
             @logo();
@@ -42,4 +50,26 @@ body{
         }
     }
     
+}
+.backgroundgradient{
+    float: left;
+    background-color:darken(@colordeprueba, 10%) ;
+    height: auto;
+    margin-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
+    width: @largo;
+        ul{
+            li{
+                float: left;
+                @boton-link();
+                 &:hover{
+                    background-color: @colordeprueba;
+                }
+                a{
+                    text-decoration: none;
+                    color: @color;
+                }
+            }
+        }
 }

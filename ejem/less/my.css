@@ -7,7 +7,7 @@ body {
 }
 .mainheader {
   width: 100%;
-  height: 100px;
+  height: auto;
   margin-bottom: 10px;
   background-color: #E1DEDD;
   float: left;
@@ -15,6 +15,7 @@ body {
 .mainheader div {
   width: 100%;
   height: 60px;
+  margin-bottom: 5px;
 }
 .mainheader div img {
   width: 60px;
@@ -32,4 +33,29 @@ body {
   float: right;
   padding: 5px;
   margin: 10px 10px;
+}
+.backgroundgradient {
+  float: left;
+  background-color: #c9c4c2;
+  height: auto;
+  margin-bottom: 5px;
+  padding-left: 0px;
+  padding-right: 10px;
+  width: 100%;
+}
+.backgroundgradient ul li {
+  float: left;
+  background-color: #817571;
+  padding: 10px;
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0px 10px 10px 0px;
+  /*top, right, left, bottom*/
+}
+.backgroundgradient ul li:hover {
+  background-color: #E1DEDD;
+}
+.backgroundgradient ul li a {
+  text-decoration: none;
+  color: black;
 }
